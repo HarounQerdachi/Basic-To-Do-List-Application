@@ -1,0 +1,46 @@
+Initialize an empty set called "todo_set" to store tasks.
+
+Function add_task(task):
+    Add "task" to "todo_set".
+    Display a message: "Task 'task' added to the to-do list."
+
+Function view_tasks():
+    If "todo_set" is empty:
+        Display a message: "The to-do list is empty."
+    Else:
+        Display a message: "Tasks in the to-do list:"
+        For each "task" in "todo_set":
+            Display "task" with a bullet point.
+
+Function remove_task(task):
+    If "task" is in "todo_set":
+        Remove "task" from "todo_set".
+        Display a message: "Task 'task' removed from the to-do list."
+    Else:
+        Display a message: "Task 'task' not found in the to-do list."
+
+Main program loop:
+Repeat until the user decides to quit:
+    Display a menu with options:
+        1. Add a task
+        2. View tasks
+        3. Remove a task
+        4. Quit
+
+    Get the user's choice (an integer).
+
+    If the choice is 1:
+        Prompt the user for a task name.
+        Call add_task(task) with the user's input.
+
+    If the choice is 2:
+        Call view_tasks().
+
+    If the choice is 3:
+        Prompt the user for a task name.
+        Call remove_task(task) with the user's input.
+
+    If the choice is 4:
+        Quit the application (end the loop).
+
+End of the program.
