@@ -26,4 +26,4 @@ This Python project is a basic to-do list application that allows users to manag
 
 - Quit: Users can exit the application when they are done managing their tasks.
 
-By : Haroun Qerdachi
+By Haroun Qerdachi
