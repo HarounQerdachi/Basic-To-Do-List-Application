@@ -51,5 +51,3 @@ while True:
 
     else:
         print("Invalid choice. Please select a valid option.")
-
-
